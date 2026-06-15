@@ -1,0 +1,39 @@
+{
+  "name": "Gateaux TD",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      },
+      "Replicated": {
+        "$path": "src/replicatedCodebase"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "ServerStorage": {
+      "Server": {
+        "$path": "src/serverCodebase"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        },
+        "$className": "StarterPlayerScripts"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+[package]
+name = "mike-gateaux/ecs-td-showcase"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Packet = "rajden28/packet@1.7.3"
+React = "roblox/react@17.3.13"
+ReactRoblox = "roblox/react-roblox@17.3.13"
